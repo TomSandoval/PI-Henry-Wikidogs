@@ -1,0 +1,16 @@
+.loadingContainer {
+    border-radius: 50px;
+    letter-spacing: 2px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 4em;
+    margin-top: 20px;
+  }
+  
+  .loadingContainer img {
+    width: 550px;
+  }
+  
+  .loadingContainer h3 {
+    font-size: 1.5em;
+  }

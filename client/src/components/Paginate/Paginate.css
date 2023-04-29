@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.listPagesContainer {
+    width: 30%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 8px;
+}
+
+.uno,  .dos,  .tres {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    color: #2153c3;
+    border-radius: 6px;
+    background-color: #d5ddf3;
+    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.uno:nth-of-type(2){
+    background-color: #2153c3;
+    color: #d5ddf3;
+}
+
+.dos:nth-of-type(1) {
+    background-color: #2153c3;
+    color: #d5ddf3;
+}
+
+.tres:nth-of-type(2) {
+    background-color: #2153c3;
+    color: #d5ddf3;
+}
+
+.buttonPage {
+    background-color: #d5ddf3;
+    color: #2153c3;
+    border: none;
+    padding: 4px;
+    font-family: 'Dyna Puff';
+    width: 2.8em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+@font-face {
+    font-family: 'Dyna Puff';
+    src: url(../../Fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+  }

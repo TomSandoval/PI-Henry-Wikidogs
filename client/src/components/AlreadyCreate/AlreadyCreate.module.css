@@ -1,0 +1,50 @@
+.alreadyContainer {
+    position: absolute;
+    z-index: 1000;
+    background-color: #f7b61e;
+    padding: 20px;
+    border-radius: 2em;
+    border: 2px solid #000;
+    font-family: 'Dyna Puff';
+}
+
+
+.alreadyContainer h2 {
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+
+
+.alreadyContainer .button,.alreadyLink {
+    text-decoration: none;
+    color: #fff;
+    background-color: #023047;
+    padding: 8px 12px;
+    font-size: 1em;
+    font-family: 'Dyna Puff';
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Dyna Puff';
+    src: url(../../Fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+  

@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(214,214,214,1) 100%);
+}
+
+.allContainerMain main {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.allContainerMain {
+  max-width: 100vw;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70px;
+}
+
+
+.header {
+  width: 100vw;
+  max-width: 100%;
+  height: 65px;
+}
+
+
+
+.homeButton {
+  width: 90px;
+  filter: invert(100%) saturate(100%)
+}
+
+
+.filtersContainer {
+  width: 100vw;
+  max-width: 80%;
+  height: 90px;
+  background-color: #023047;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  font-family: 'Dyna Puff';
+  letter-spacing: 2px;
+  color:#fff;
+}
+
+
+.tempsFilter, .weightFilter, .alphabeticFilter{
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  background-color: #ffc335;
+  padding: .2em;
+  font-family: "Dyna Puff";
+  margin-top: 4px;
+  border-radius: 20px;
+  border: 1px solid #ce9103;
+}
+
+select::-webkit-scrollbar{
+  width: 12px;
+}
+
+select::-webkit-scrollbar-track{
+  background-color: #ce9103;
+  border-radius: 2em;
+}
+
+select::-webkit-scrollbar-thumb{
+  background-color: #ffc335;
+  border-radius: 2em;
+  border: 1px solid #fff;
+}
+
+select:hover {
+  background-color: #ffb70f;
+}
+
+.weightFilter div {
+  display: flex;
+  justify-content: center;
+}
+
+.weightFilter button {
+  background-color: #ffc335;
+  border: 1px solid #ce9103;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: .3em;
+  border-radius: 1em;
+  font-family: 'Dyna Puff';
+  transition: background .2s;
+}
+
+.weightFilter button:hover {
+  background-color: #ffb70f;
+}
+
+.alphabeticFilter div {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.alphabeticFilter button {
+  background-color: #ffc335;
+  padding: .5em;
+  border: 1px solid #ce9103;
+  border-radius: 1em;
+  font-family: "Dyna Puff";
+  transition: background .2s;
+}
+
+.alphabeticFilter button:hover {
+  background-color: #ffb70f;
+}
+
+.linkCard {
+  text-decoration: none;
+  color: #000
+}
+
+
+
+.cardsContainer {
+  display: grid;
+  margin-top: 17px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 12px;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  place-content: center;
+}
+
+
+.paginateContainer{
+  width: 100vw;
+  max-width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #023047;
+}
+
+
+
+
+@font-face {
+  font-family: 'Dyna Puff';
+  src: url(../../Fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+}

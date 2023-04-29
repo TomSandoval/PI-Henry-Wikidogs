@@ -1,0 +1,109 @@
+
+
+.mainDetail {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://img.freepik.com/vector-premium/patron-pata-mascotas-huesos-huellas-animales-textura-fluida_81894-4406.jpg?w=826);
+}
+
+.detailContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 0;
+  align-items: center;
+  max-width: 1000px;
+  padding: 12px;
+  background-color: #023047;
+  border-radius: 2em;
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.59);
+  color: #fff;
+}
+
+
+.detailImage {
+    grid-area: 1 / 1 / 2 / 2;
+    max-width: 600px; 
+    border: 2px solid #fff;
+    border-radius: 2em;
+}
+
+.detailName {
+    font-family: 'Noto Serif';
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.detailText {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.weightContainer, .heightContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weightText, .heightText {
+    background-color: #219ebc;
+    padding: 6px;
+    border-radius: 6px;
+    border: 2px solid #044c5e;
+    font-family: 'Dyna Puff';
+}
+
+
+.tempsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tempsTitle, .weightTitle, .heightTitle {
+    font-family: 'Noto Serif';
+    letter-spacing: 1px;
+}
+
+.tempsText {
+    padding: 6px;
+    border-radius: 3em;
+    color: #000;
+    border: 2px solid #ce9103;
+    margin: 6px;
+    background-color: #ffc335;
+    font-family: 'Dyna Puff';
+    font-weight: lighter;
+}
+
+
+.errorContainer {
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@font-face {
+    font-family: "Noto Serif";
+    src: url(../../Fonts//NotoSerifTelugu-VariableFont_wght.ttf);
+  }
+
+
+@font-face {
+    font-family: 'Dyna Puff';
+    src: url(../../Fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+  

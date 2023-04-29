@@ -1,0 +1,53 @@
+
+.errorContainer {
+    width: 600px;
+    height: 400px;
+    background-color: #ee1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+
+
+.errorContainer h2 {
+    font-family: "Dyna Puff";
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.errorContainer p {
+    color: #dbdbdb;
+    font-family: sans-serif;
+}
+
+
+.errorContainer div {
+    display: flex;
+    margin-top: 12px;
+    gap: 10px;
+}
+
+.buttonCheck, .buttonToHome {
+    background-color: #023047;
+    color: #fff;
+    border: none;
+    font-family: "Dyna Puff";
+    font-weight: 100;
+    font-size: 1.1em;
+    padding: 8px 12px;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.buttonToHome {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Dyna Puff';
+    src: url(../../Fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+  

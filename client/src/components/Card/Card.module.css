@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 270px;
+    height: 350px;
+    margin: 12px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: transform .3s;
+    position: relative;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.59);
+    background-image: url(https://img.freepik.com/vector-premium/patron-pata-mascotas-huesos-huellas-animales-textura-fluida_81894-4406.jpg?w=826);
+    background-size: cover;
+}
+
+.hoverText {
+    width: 100%;
+    position: absolute;
+    top: calc(270px - 30%);
+    height: 55%;
+    left: -2000px;
+    border-top: 2px solid #fff;
+    background-color: #023047;
+    transition: all .2s;
+    overflow: auto;
+}
+
+.hoverText::-webkit-scrollbar{
+    width: 12px;
+  }
+  
+  .hoverText::-webkit-scrollbar-track{
+    background-color: #ce9103;
+    border-radius: 2em;
+  }
+  
+  .hoverText::-webkit-scrollbar-thumb{
+    background-color: #ffc335;
+    border-radius: 2em;
+    border: 1px solid #fff;
+  }
+
+.hoverText > h2 {
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+}
+
+.container:hover {
+    transform: scale(1.15);
+}
+
+.container:hover  .hoverText {
+    left: 0;
+}
+
+.container:hover  .image {
+    height: 100%;
+}
+
+.nameText {
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: "Dyna Puff";
+    font-weight: 100;
+    background-color: #fff  ;
+}
+
+.heightText {
+    font-size: .8em;
+    color: #fff;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.tempText {
+    color: #000;
+    display: inline-block;
+    font-family: "Dyna Puff";
+    font-weight: 100;
+    font-size: 16px;
+    padding: 3px;
+    margin: 2px;
+    background-color: #ffc335;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+
+@font-face {
+    font-family: 'Dyna Puff';
+    src: url(../../Fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+  }
+  

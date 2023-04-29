@@ -1,0 +1,49 @@
+
+
+
+
+.errorContainer {
+    width: 900px;
+    height: 700px;
+    margin-top: 30px;
+    background-color: #ffc335;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Dyna Puff';
+    border: 2px solid #000;
+    border-radius: 3em;
+}
+
+.errorContainer h1 {
+    font-weight: 500;
+}
+
+
+.errorGif {
+    width: 600px;
+    filter: drop-shadow(21px 0px 16px #000);
+}
+
+
+.errorContainer button {
+    background-color: #023047;
+    padding: 1.4em;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: "Dyna Puff";
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: 'Dyna Puff';
+    src: url(../../Fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+  

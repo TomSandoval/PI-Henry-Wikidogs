@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.searchContainer {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.inputSearch {
+    height: 2em;
+    border: 1px solid #505050;
+    padding: 6px 8px;
+    font-family: 'Dyna Puff';
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+
+.inputSearch:focus {
+    border: 1px solid #ce9103;
+    outline: none;
+}
+
+.buttonSearch {
+    height: 2em;
+    background: #ffc335;
+    border: 1px solid #fb8500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.searchRefreshButton {
+    background: #ffc335;
+    border: 1px solid #ce9103;
+    border-radius: 6px;
+}
+
+
+@font-face {
+    font-family: 'Dyna Puff';
+    src: url(../../Fonts/DynaPuff-VariableFont_wdth\,wght.ttf);
+}
+  
